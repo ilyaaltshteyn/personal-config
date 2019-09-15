@@ -1,0 +1,6 @@
+# ilyas customizations
+alias o='f(){ xdg-open "$@" &> /dev/null;  unset -f f; }; f'
+alias python='python3'
+alias aa='lh 3 atom .'
+alias gs='git status'
+alias ca='f(){ git commit -am "$@" && git push;  unset -f f; }; f'
